@@ -1,5 +1,5 @@
 {
-  "name": "az-vm-manage-ts",
+  "name": "@kraloz/az-vm-manage-ts",
   "version": "0.1.0",
   "description": "utilidades para manejo de vm en azure",
   "main": "lib/main.js",
@@ -7,6 +7,9 @@
   "scripts": {
     "start": "tsc && node ./lib/main.js",
     "lint": "tslint --project ./"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
