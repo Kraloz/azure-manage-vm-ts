@@ -2,6 +2,7 @@
   "name": "@kraloz/az-vm-manage-ts",
   "version": "0.1.0",
   "description": "utilidades para manejo de vm en azure",
+  "private": false,
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
   "scripts": {
