@@ -1,11 +1,20 @@
 {
   "name": "az-vm-manage-ts",
   "version": "0.1.0",
-  "description": "",
-  "main": "dist/main.js",
+  "description": "utilidades para manejo de vm en azure",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
   "scripts": {
-    "start": "tsc && node ./dist/main.js"
+    "start": "tsc && node ./lib/main.js",
+    "lint": "tslint --project ./"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kraloz/azure-manage-vm-ts"
+  },
+  "bugs": {
+    "url": "https://github.com/Kraloz/azure-manage-vm-ts/issues"
+   },
   "author": "Tomas Aprile",
   "license": "ISC",
   "dependencies": {
